@@ -39,8 +39,8 @@ fetch(geoJsonUrl)
     L.geoJSON(data).addTo(map);
   });
 
-// this runs BEFORE the fetch block
-console.log("Why is this undefined?", globalGeoJSon);
+// // this runs BEFORE the fetch block
+// console.log("Why is this undefined?", globalGeoJSon);
 
 // Here is the modern way to accomplish this
 // fetch API is promised based - .then(prevReturn) => do something / notice the arrow functions
