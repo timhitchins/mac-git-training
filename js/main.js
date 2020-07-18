@@ -1,3 +1,5 @@
+// Max
+
 // Use the fetch API to get the data on the AWS server
 
 // declare a variable of the url
